@@ -13,6 +13,17 @@
 		BE020F2E27D0A6FC00FB20FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE020F2C27D0A6FC00FB20FF /* Main.storyboard */; };
 		BE020F3027D0A6FE00FB20FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE020F2F27D0A6FE00FB20FF /* Assets.xcassets */; };
 		BE020F3327D0A6FE00FB20FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE020F3127D0A6FE00FB20FF /* LaunchScreen.storyboard */; };
+		BE8FE1FB27EE4FBD0070E780 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE1FA27EE4FBD0070E780 /* User.swift */; };
+		BE8FE1FD27EE51210070E780 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE1FC27EE51210070E780 /* Puzzle.swift */; };
+		BE8FE1FF27EE543C0070E780 /* PuzzleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE1FE27EE543C0070E780 /* PuzzleCell.swift */; };
+		BE8FE20127EE54E80070E780 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20027EE54E80070E780 /* DataProvider.swift */; };
+		BE8FE20327EE65E90070E780 /* BrowsePuzzlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20227EE65E90070E780 /* BrowsePuzzlesViewController.swift */; };
+		BE8FE20527EE675C0070E780 /* PuzzleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20427EE675C0070E780 /* PuzzleImageCell.swift */; };
+		BE8FE20727EE68AF0070E780 /* PuzzleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20627EE68AF0070E780 /* PuzzleDetailViewController.swift */; };
+		BE8FE20927EE878D0070E780 /* BrowseUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20827EE878D0070E780 /* BrowseUsersViewController.swift */; };
+		BE8FE20B27EE888A0070E780 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20A27EE888A0070E780 /* UserDetailViewController.swift */; };
+		BE8FE20D27EE89F00070E780 /* UserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20C27EE89F00070E780 /* UserImageCell.swift */; };
+		BE8FE20F27EEBAB50070E780 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FE20E27EEBAB50070E780 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		BE020F2F27D0A6FE00FB20FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE020F3227D0A6FE00FB20FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE020F3427D0A6FE00FB20FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8FE1FA27EE4FBD0070E780 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE8FE1FC27EE51210070E780 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		BE8FE1FE27EE543C0070E780 /* PuzzleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCell.swift; sourceTree = "<group>"; };
+		BE8FE20027EE54E80070E780 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		BE8FE20227EE65E90070E780 /* BrowsePuzzlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePuzzlesViewController.swift; sourceTree = "<group>"; };
+		BE8FE20427EE675C0070E780 /* PuzzleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleImageCell.swift; sourceTree = "<group>"; };
+		BE8FE20627EE68AF0070E780 /* PuzzleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDetailViewController.swift; sourceTree = "<group>"; };
+		BE8FE20827EE878D0070E780 /* BrowseUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseUsersViewController.swift; sourceTree = "<group>"; };
+		BE8FE20A27EE888A0070E780 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		BE8FE20C27EE89F00070E780 /* UserImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageCell.swift; sourceTree = "<group>"; };
+		BE8FE20E27EEBAB50070E780 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 		BE020F2527D0A6FC00FB20FF /* JPLL */ = {
 			isa = PBXGroup;
 			children = (
+				BE8FE1F927EE4F910070E780 /* data */,
+				BE8FE1F827EE4F830070E780 /* cell */,
 				BE020F2627D0A6FC00FB20FF /* AppDelegate.swift */,
 				BE020F2827D0A6FC00FB20FF /* SceneDelegate.swift */,
 				BE020F2A27D0A6FC00FB20FF /* ViewController.swift */,
@@ -63,8 +87,33 @@
 				BE020F2F27D0A6FE00FB20FF /* Assets.xcassets */,
 				BE020F3127D0A6FE00FB20FF /* LaunchScreen.storyboard */,
 				BE020F3427D0A6FE00FB20FF /* Info.plist */,
+				BE8FE20227EE65E90070E780 /* BrowsePuzzlesViewController.swift */,
+				BE8FE20627EE68AF0070E780 /* PuzzleDetailViewController.swift */,
+				BE8FE20827EE878D0070E780 /* BrowseUsersViewController.swift */,
+				BE8FE20A27EE888A0070E780 /* UserDetailViewController.swift */,
 			);
 			path = JPLL;
+			sourceTree = "<group>";
+		};
+		BE8FE1F827EE4F830070E780 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FE1FE27EE543C0070E780 /* PuzzleCell.swift */,
+				BE8FE20427EE675C0070E780 /* PuzzleImageCell.swift */,
+				BE8FE20C27EE89F00070E780 /* UserImageCell.swift */,
+				BE8FE20E27EEBAB50070E780 /* UserCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		BE8FE1F927EE4F910070E780 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FE1FA27EE4FBD0070E780 /* User.swift */,
+				BE8FE1FC27EE51210070E780 /* Puzzle.swift */,
+				BE8FE20027EE54E80070E780 /* DataProvider.swift */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8FE1FD27EE51210070E780 /* Puzzle.swift in Sources */,
+				BE8FE1FB27EE4FBD0070E780 /* User.swift in Sources */,
+				BE8FE20D27EE89F00070E780 /* UserImageCell.swift in Sources */,
+				BE8FE20927EE878D0070E780 /* BrowseUsersViewController.swift in Sources */,
+				BE8FE20527EE675C0070E780 /* PuzzleImageCell.swift in Sources */,
 				BE020F2B27D0A6FC00FB20FF /* ViewController.swift in Sources */,
+				BE8FE20F27EEBAB50070E780 /* UserCell.swift in Sources */,
+				BE8FE20127EE54E80070E780 /* DataProvider.swift in Sources */,
+				BE8FE20B27EE888A0070E780 /* UserDetailViewController.swift in Sources */,
+				BE8FE1FF27EE543C0070E780 /* PuzzleCell.swift in Sources */,
+				BE8FE20727EE68AF0070E780 /* PuzzleDetailViewController.swift in Sources */,
 				BE020F2727D0A6FC00FB20FF /* AppDelegate.swift in Sources */,
+				BE8FE20327EE65E90070E780 /* BrowsePuzzlesViewController.swift in Sources */,
 				BE020F2927D0A6FC00FB20FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
